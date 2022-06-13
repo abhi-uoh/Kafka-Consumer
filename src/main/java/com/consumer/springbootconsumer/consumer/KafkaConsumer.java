@@ -8,7 +8,7 @@ public class KafkaConsumer {
 
     @KafkaListener(topics ="Kafka_Example", groupId = "group_id")
     public void consume(String message){
-        System.out.println("message = "+ message);
+        System.out.println("message  = "+ message);
 
     }
 }
